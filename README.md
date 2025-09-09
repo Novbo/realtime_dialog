@@ -31,14 +31,14 @@ ollama run qwen2.5:14b
 
 ```bash
 git clone https://github.com/Novbo/realtime_dialog
-cd manager
+cd realtime_dialog
 ```
 
 安装python
 
 ```bash
-conda create -n manager python=3.11
-conda activate manager
+conda create -n realtime_dialog python=3.11
+conda activate realtime_dialog
 pip install -r requirements.txt
 ```
 
