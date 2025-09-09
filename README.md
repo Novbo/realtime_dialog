@@ -30,7 +30,7 @@ ollama run qwen2.5:14b
 ### 3.安装配置环境
 
 ```bash
-git clone https://github.com/Novbo/realtime_dialog
+git clone https://github.com/Novbo/realtime_dialog.git
 cd realtime_dialog
 ```
 
