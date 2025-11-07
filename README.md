@@ -4,9 +4,9 @@
 
 通过3个开源模型 + pyaduio模块实现语音实时交互“类豆包”功能。3个模型为：
 
-- Faster Whisper语音转文字模型
-- Qween3:14B通义千问大模型
-- ChatTTS文字转语音模型
+- Faster Whisper语音转文字模型。https://github.com/SYSTRAN/faster-whisper
+- Qween3:14B通义千问大模型。
+- ChatTTS文字转语音模型。https://github.com/2noise/ChatTTS
 
 ## 2.环境配置
 
@@ -14,7 +14,13 @@
 
 链接：https://huggingface.co/Systran/faster-whisper-large-v3/tree/main
 
-### 2. 通过ollama本地部署Qween大模型
+### 2. 安装ChatTTS模型所需的权重文件
+> 安装到当前项目目录即可
+
+链接：https://huggingface.co/2Noise/ChatTTS/tree/main
+
+
+### 3. 通过ollama本地部署Qween大模型
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
